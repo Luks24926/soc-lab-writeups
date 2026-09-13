@@ -34,8 +34,7 @@ What initially looked like five separate, unrelated alerts was actually **one co
 3. All five events were tied together by a single parent process ID, forming a clear, chronological attack timeline rather than five independent anomalies.
 
 ## Screenshots / Evidence
-
-
+<img width="1291" height="506" alt="Screenshot 2026-09-13 181422" src="https://github.com/user-attachments/assets/e6bc5495-5f86-4e40-9227-4282ff1f6274" />
 ## Lessons Learned
 
 - **Don't triage alerts in isolation.** The individual DNS lookups looked unusual but not obviously malicious on their own; it was the shared parent process ID connecting them to the earlier, more clearly suspicious drive-mapping event that revealed the full picture.
